@@ -1,0 +1,22 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+192.168.100.110 dns.openshift.sw.gemilang proxy.openshift.sw.gemilang api.ocp4.openshift.sw.gemilang api-int.ocp4.openshift.sw.gemilang
+192.168.100.110 storage.ocp4.openshift.sw.gemilang storage nfs nfs.ocp4.openshift.sw.gemilang
+
+192.168.100.100 bootstrap bootstrap.ocp4.openshift.sw.gemilang
+
+192.168.100.101 master1 master1.ocp4.openshift.sw.gemilang
+192.168.100.102 master2 master2.ocp4.openshift.sw.gemilang
+192.168.100.103 master3 master3.ocp4.openshift.sw.gemilang
+192.168.100.101 etcd-0 etcd-0.ocp4.openshift.sw.gemilang _etcd-server-ssl._tcp.ocp4.openshift.sw.gemilang
+192.168.100.102 etcd-1 etcd-1.ocp4.openshift.sw.gemilang _etcd-server-ssl._tcp.ocp4.openshift.sw.gemilang
+192.168.100.103 etcd-2 etcd-2.ocp4.openshift.sw.gemilang _etcd-server-ssl._tcp.ocp4.openshift.sw.gemilang
+192.168.100.104 worker1.ocp4.openshift.sw.gemilang worker1
+192.168.100.105 worker2.ocp4.openshift.sw.gemilang worker2
+192.168.100.106 worker3.ocp4.openshift.sw.gemilang worker3
+
+#10.0.0.1 workstation
+#10.0.0.41 ceph1.demo.ibmdte.net ceph1
+#10.0.0.42 ceph2.demo.ibmdte.net ceph2
+#10.0.0.43 ceph3.demo.ibmdte.net ceph3
